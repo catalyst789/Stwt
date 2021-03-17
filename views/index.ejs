@@ -1,0 +1,25 @@
+<% include ./partials/header.ejs %>
+
+  <link rel="stylesheet" href="../stylesheets/style.css">
+
+  <div id="back">
+    <div id="overlay">
+      <div id="left"></div>
+      <div id="right">
+        <h2>Create an account <br> Sasta Twitter App </h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis</p>
+        <form action="/reg" method="POST" >
+          <input type="text" name="name" placeholder="Enter Name">
+          <input type="email" name="email" placeholder="Enter Email">
+          <input type="text" name="username" placeholder="Enter Username">
+          <input type="password" name="password" placeholder="Enter Password"><br>
+          <p>By clicking Sign Up, you agree to our  <a> Terms </a> and <a>Conditions</a>, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p> 
+          <input type="submit"value="Sign Up"><br>
+          <a id="loginlink" href="/login"> Already have an account? Login Here </a>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <% include ./partials/footer.ejs %>

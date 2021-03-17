@@ -1,0 +1,54 @@
+#back{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.container{
+    width: 95%;
+    height: 95%;
+    background-color: #fff;
+}
+.bluebox{
+    width: 100%;
+    height: 30%;
+    background-color: #2A8FC3;
+
+}
+.bluebox h1{
+    color: #fff;
+    position: absolute;
+    left: 8%;
+    top: 12%;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.logoutBtn{
+    position: absolute;
+    right: 5%;
+    top: 7%;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:rgba(255, 0, 0, 0.767);
+    box-shadow: 0 0 0 5px #2A8FC3;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.prflcrcl{
+    width: 120px;
+    height: 120px;
+    background-image: url(https://admin.itsnicethat.com/images/AdihJKT4fXnuV0w24xhusry98yA=/82604/format-webp%7Cwidth-1440/4fd07cea5c3e3c0d810000db.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 22%;
+    left: 8%;
+    box-shadow: 0 0 10px #fff;
+
+}

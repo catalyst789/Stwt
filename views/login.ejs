@@ -1,0 +1,25 @@
+<% include ./partials/header.ejs %>
+
+<link rel="stylesheet" href="../stylesheets/login.css">
+
+<div id="back">
+    <div id="overlay">
+        <div id="left">
+            <img src="https://images.unsplash.com/photo-1506792006437-256b665541e2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1868&q=80" alt="">
+        </div>
+        <div id="right">
+            <form action="/login" method="POST" >
+            <div id="logo"></div>
+                <h2>Sasta Twitter App <br>Login here</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, autem provident? Vitae eveniet fugiat ipsa commodi, voluptas praesentium!</p>
+                <input type="text" name="username" placeholder="Enter Username">
+                <input type="text" name="password" placeholder="Enter Password">
+                <input type="submit" value="Login">
+                <a href="/">Don't have an account?  <span style="color: #DA3800;">Register Here</span></a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<% include ./partials/footer.ejs %>
