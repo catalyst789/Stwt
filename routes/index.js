@@ -10,7 +10,8 @@ passport.use(new localStrategy(userModel.authenticate()));
 
 /* GET home page. */
 router.get('/', sendToProfile, function(req, res) {
-  res.render('index');
+  // res.render('index');
+  res.send('hey');
 });
 
 /* GET login page. */
